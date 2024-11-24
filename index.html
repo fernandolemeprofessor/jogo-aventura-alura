@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Parkinsans:wght@300..800&display=swap" rel="stylesheet">
+    <title>Em busca da cidade perdida</title>
+    <link rel="shortcut icon" href="img/favicon.ico" type="ico">
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="img/1.jpg" alt="" height="350" width="350">
+            <p>Você está em um vagão do metrô, o som metálico dos trilhos ecoa enquanto a cidade passa como um borrão pelas janelas. Uma voz no sistema de som anuncia: "Próxima estação: Central." No banco ao lado, alguém deixou cair um envelope pardo com uma inscrição: "Para quem busca a verdade."</p>
+            <button class="btn-proximo" data-proximo="1">abrir envelope</button>
+            <button class="btn-proximo" data-proximo="2">ignorar envelope</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <p>Você abre o envelope e encontra fotos de pessoas desaparecidas e um mapa com um círculo em um bairro degradado da cidade. Ao chegar à estação, uma figura encapuzada te observa à distância.</p>
+            <button class="btn-proximo" data-proximo="3">Decidir ir ao armazém</button>
+            <button class="btn-proximo" data-proximo="4">Ignorar os acontecimentos e continuar seu dia</button>
+        </div>
+        <div class="passo" id="passo-2">
+            <img src="" alt="">
+            <p>Você desce do metrô e percebe que está sendo seguido por uma figura encapuzada. Ao olhar para trás, ela te entrega um cartão: "Encontre-me no armazém 43."</p>
+            <button class="btn-proximo" data-proximo="3">Decidir ir ao armazém</button>
+            <button class="btn-proximo" data-proximo="4">Ignorar os acontecimentos e continuar seu dia</button>
+        </div>
+        <div class="passo" id="passo-3">
+            <img src="img/2.jpg" alt="" height="350" width="350">
+            <p>O armazém é escuro e vazio, exceto por uma lanterna no chão. Ao pegá-la, você ilumina um quadro com notícias sobre desaparecimentos e o símbolo estranho. A figura encapuzada aparece e diz: "Você foi escolhido para expor a verdade</p>
+            <button class="btn-proximo" data-proximo="4">Perguntar o que precisa ser feito e aceitar o desafio</button>
+            <button class="btn-proximo" data-proximo="4">Fugir do armazém e evitar se envolver</button>
+        </div>
+        <div class="passo" id="passo-5">
+            <img src="img/cara.jpg" alt="" height="350" width="350">
+            <p>A figura te entrega um dossiê com nomes e endereços de possíveis pistas. Você descobre que a corporação mais influente da cidade está envolvida, mas precisará escolher por onde começar.</p>
+            <button class="btn-proximo" data-proximo="4">Investigar a sede da corporação</button>
+            <button class="btn-proximo" data-proximo="4">Falar com uma das testemunhas mencionadas no dossiê</button>
+        </div>
+        <div class="passo" id="passo-4">
+            <img src="img/infarto.jpg" alt="">
+            <p>por conta do choque, você infarta e morre</p>
+            <h1>FIM</h1>
+        </div>
+    
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
